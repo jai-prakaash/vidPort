@@ -6,7 +6,7 @@ function Works() {
       <div>
         <h2>My Video</h2>
         <video width="200" controls autoPlay  className="rounded-2xl">
-          <source src="public/videos/b.webm" type="video/mp4" />
+          <source src="/videos/b.webm" type="video/webm" />
           Your browser does not support the video tag.
         </video>
       </div>

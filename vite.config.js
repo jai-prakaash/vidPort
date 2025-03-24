@@ -4,5 +4,5 @@ import react from '@vitejs/plugin-react';
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: '/<repository-name>/',  // Make sure the base is set here
+  base: '/vidPort/',  // Make sure the base is set here
 });

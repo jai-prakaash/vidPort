@@ -8,6 +8,12 @@
 /* body {
     font-family: 'Boldonse', sans-serif;
   } */
+
+  body{
+
+    background: #192A22;
+  
+   }
   
   /* If you want to apply it to specific elements, you can target them directly */
   .hero-text {

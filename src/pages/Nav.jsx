@@ -5,7 +5,7 @@ import React from "react";
 function Nav(){
     return (
 < >
-<nav className=" bg-red-600 h-5" >
+<nav className=" bg-inherit h-5" >
 
 </nav>
 

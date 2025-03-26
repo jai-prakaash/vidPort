@@ -5,7 +5,7 @@ import './App.css'
 import Works from './pages/work'
 import Nav from './pages/Nav'
 import Hero from './pages/Hero'
-
+import Skills from './pages/Skills'
 
 
 function App() {
@@ -17,7 +17,8 @@ function App() {
       <Nav/>
 
       <Hero/>
-      
+      <Skills/>
+
      <Works/>
 
     </>

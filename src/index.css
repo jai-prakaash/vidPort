@@ -1,23 +1,20 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+body{
+
+  background: #e0e0f0;
+  height: 100%;
+
+ }
 
 
+ html {
+  scrollbar-width: none; /* For Firefox */
+}
 
-/* style.css or any other CSS file */
-/* body {
-    font-family: 'Boldonse', sans-serif;
-  } */
+body {
+  overflow: auto;   /* Keep scrolling enabled */
+  -ms-overflow-style: none; /* For Internet Explorer 10+ */
+}
 
-  body{
-
-    background: #e0e0f0;
-  
-   }
-  
-  /* If you want to apply it to specific elements, you can target them directly */
-  .hero-text {
-    font-family: 'Boldonse';
-  }
-  
-
+body::-webkit-scrollbar {
+  display: none; /* For Chrome, Safari, and Edge */
+}

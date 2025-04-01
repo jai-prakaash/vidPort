@@ -3,9 +3,11 @@ import React from "react";
 function Skills(){
     return(
         <>
-       <div className=" flex items-center flex-col justify-center  w-screen "> 
 
-        <h1 className=" font-bold text-7xl " >What I Use</h1>
+        
+       <div className=" mt-16 flex items-center flex-col justify-center  w-screen "> 
+
+        <h1 className=" font-bold text-7xl text-slate-50 " >What I Use</h1>
         
 
         <logos className="items-center justify-center flex justify-around " > 

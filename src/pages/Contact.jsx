@@ -65,7 +65,7 @@ const ContactUs = () => {
 
         {/* Email */}
         <div>
-          <label htmlFor="email" className="block text-sm font-medium text-gray-700">
+          <label htmlFor="email" className="  block text-sm font-medium text-gray-700">
             Email Address
           </label>
           <input
@@ -74,7 +74,7 @@ const ContactUs = () => {
             name="email"
             value={formData.email}
             onChange={handleChange}
-            className="w-full p-3 mt-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+            className="  w-full p-3 mt-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
             placeholder="example@mail.com"
             required
           />

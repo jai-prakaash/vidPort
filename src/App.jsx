@@ -2,12 +2,9 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
-import Nav from './pages/Nav'
-import Hero from './pages/Hero'
-import Skills from './pages/Skills'
-import WorksVid from './pages/Workvid'
-import WorksImg from './pages/WorksImg'
-import ContactUs from './pages/Contact'
+
+import { AuroraHero } from './pages/bg'
+import { AuroraHero1 } from './pages/bgs'
 
 
 
@@ -17,14 +14,19 @@ function App() {
   return (
     <>
 
-      <Nav/>
+      {/* <Nav/> */}
      
-      <Hero/>
-      <Skills/>
+      {/* <Hero/> */}
 
-     <WorksVid/>
-     <WorksImg/>
-     <ContactUs/>
+      {/* <AuroraHero/> */}
+
+
+      <AuroraHero1/>
+     
+
+  
+     
+  
 
     </>
   )

@@ -20,9 +20,9 @@ const ContactUs = () => {
     e.preventDefault();
 
     // You will replace these values with your actual EmailJS IDs
-    const serviceID = "service_dn24wqq";
-    const templateID = "template_4z4c661";
-    const userID = "xnxMph5OWLmSx1qNR";
+    const serviceID = "serdfgwqq";
+    const templateID = "tempgffdg";
+    const userID = "xnxfgR";
 
     const templateParams = {
       name: formData.name,
@@ -43,7 +43,7 @@ const ContactUs = () => {
   };
 
   return (
-    <div className="max-w-3xl mx-auto px-4 py-8 rounded-lg shadow-lg">
+    <div className="max-w-3xl mx-auto px-4 py-8 rounded-lg shadow-lg relative z-10">
       <h2 className="text-3xl font-semibold text-center mb-6">Contact Us</h2>
       <form onSubmit={handleSubmit} className="space-y-6">
         {/* Name */}

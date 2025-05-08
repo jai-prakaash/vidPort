@@ -20,9 +20,9 @@ const ContactUs = () => {
     e.preventDefault();
 
     // You will replace these values with your actual EmailJS IDs
-    const serviceID = "serdfgwqq";
-    const templateID = "tempgffdg";
-    const userID = "xnxfgR";
+    const serviceID = "service_dn24wqq";
+    const templateID = "template_fc8qymj";
+    const userID = "xnxMph5OWLmSx1qNR";
 
     const templateParams = {
       name: formData.name,
@@ -103,7 +103,7 @@ const ContactUs = () => {
             type="submit"
             className="px-6 py-3 bg-blue-600 text-white font-medium text-sm rounded-md hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-50"
           >
-            Send Message
+            Send Message to me
           </button>
         </div>
       </form>
